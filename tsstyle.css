@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .text{
+    z-index: 5;
+  }
+
+.text h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 5em;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+
+.text h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5em;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.text h3{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 1.1em;
+    max-width: 700px;
+    margin: 20px 0;
+}
+
+.text a{
+    display: inline-block;
+    font-size: 1em;
+    background: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #111;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.text a:hover{
+    letter-spacing: 6px;
+}
+
+.social{
+    z-index: 5;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    margin-right: 20px;
+    transform: scale(0.5);
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.social li a:hover {
+    transform: scale(0.5) translateY(-15);
+}
+
+.menu{
+
+    display: none;
+    list-style: none;
+}
+
+.showcase{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    z-index: 1;
+}
+
+.showcase header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.toogle{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url();
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.toogle.active {
+    background: url();
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+}
+
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.overlay{
+    background: #a2cadb;
+    mix-blend-mode: overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
